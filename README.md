@@ -1,3 +1,5 @@
+# WARNING - STILL WIP
+
 # Rhymix for YunoHost
 
 > *This package allow you to install Rhymix quickly and simply on a YunoHost server.  
