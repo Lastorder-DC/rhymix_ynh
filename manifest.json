@@ -12,10 +12,10 @@
 	"maintainer": {
 		"name": "Lastorder-DC",
 		"email": "lastorderdc@gmail.com"
-	}
-    "requirements": {
-        "yunohost": ">= 3.8.1"
-    },
+	},
+	"requirements": {
+		"yunohost": ">= 3.8.1"
+	},
 	"multi_instance": true,
 	"services": [
 		"nginx",
