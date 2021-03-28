@@ -1,22 +1,18 @@
 {
-	"name": "WordPress",
-	"id": "wordpress",
+	"name": "Rhymix",
+	"id": "rhymix",
 	"packaging_format": 1,
 	"description": {
 		"en": "Create a beautiful blog or website easily",
 		"fr": "Logiciel de création de blog ou de site Web"
 	},
-	"version": "5.7~ynh1",
-	"url": "https://wordpress.org/",
+	"version": "2.0.8~ynh1",
+	"url": "https://rhymix.org/",
 	"license": "GPL-2.0",
 	"maintainer": {
-		"name": "kay0u",
-		"email": "pierre@kayou.io"
-	},
-	"previous_maintainers": [{
-		"name": "Maniack Crudelis",
-		"email": "maniackc_dev@crudelis.fr"
-	}],
+		"name": "Lastorder-DC",
+		"email": "lastorderdc@gmail.com"
+	}
     "requirements": {
         "yunohost": ">= 3.8.1"
     },
@@ -46,34 +42,6 @@
 				},
 				"example": "/blog",
 				"default": "/blog"
-			},
-			{
-				"name": "admin",
-				"type": "user",
-				"ask": {
-					"en": "Choose the WordPress administrator (must be an existing YunoHost user)",
-					"fr": "Administrateur du site (doit être un utilisateur YunoHost existant)"
-				},
-				"example": "john"
-			},
-			{
-				"name": "language",
-				"type": "string",
-				"ask": {
-					"en": "Choose the language of the WordPress site",
-					"fr": "Choissisez la langue du WordPress"
-				},
-				"choices": ["en_US", "fr_FR"],
-				"default": "en_US"
-			},
-			{
-				"name": "multisite",
-				"type": "boolean",
-				"ask": {
-					"en": "Enable multisite option?",
-					"fr": "Activer l'option multisite ?"
-				},
-				"default": false
 			},
 			{
 				"name": "is_public",
