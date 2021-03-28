@@ -1,8 +1,8 @@
 version = "0.1"
-name = "Wordpress configuration panel"
+name = "Rhymix configuration panel"
 
 [main]
-name = "Wordpress configuration"
+name = "Rhymix configuration"
 
 
     [main.overwrite_files]
